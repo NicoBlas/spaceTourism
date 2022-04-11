@@ -1,0 +1,46 @@
+.home{
+    width: 100vw;
+    
+}
+
+.home img{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -10;
+}
+
+.home__info{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    padding-top: 6rem;
+}
+
+.home__info p{
+    color: #D0D6F9;
+    font-family: 'Bellefair', serif;
+    font-size: 19px;
+    text-align: center;
+    padding: 1rem 0;    
+    line-height: 28px;
+    
+
+}
+
+#p-title{
+    color: rgb(255, 255, 255);
+    font-family: 'Bellefair', serif;
+    text-align: center;
+    font-size: 90px;
+    margin: 2rem 0;
+}
+
+.home__buttom{
+    width: 60vw;
+    height: 60vw;
+    display: flex;
+    margin: auto;
+
+
+}
