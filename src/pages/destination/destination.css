@@ -1,0 +1,98 @@
+.destination{
+    
+    width: 100vw;
+    background-image: url("../../assets//destination/background-destination-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.destination__selection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#destination-pick{
+    color: #FFFF;
+    font-family: var(--font-family);
+    font-size: 16px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.destination__selection img{
+    width: 55%;
+    height: 55%;
+}
+
+.destination__selection__options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.destination__selection__options p{
+    color: #D0D6F9;
+    font-family: var(--font-family);
+    font-size: 16px;
+    margin: 0 0.7rem;    
+}
+
+.destination__selection__options p:hover{
+    color: #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    padding-bottom: 7px;
+}
+
+#option-selected{
+    color: #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+    padding-bottom: 7px;
+}
+.destination__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 2rem;
+    padding-bottom: 2rem;
+    
+    border-bottom: 1px groove #D0D6F9;
+}
+
+#p-destination{
+    font-family: "Bellefair";
+    font-size: 66px;
+    color:#FFFF;
+    margin: 2rem 0
+}
+#p-description{
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: #D0D6F9;
+    line-height: 28px;
+}
+
+#p-dataWhite{
+    font-family: "Bellefair";
+    font-size: 35px;
+    color:#FFFFFF;
+    margin: 1rem 0;
+}
+
+.destination__data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 4rem;
+}

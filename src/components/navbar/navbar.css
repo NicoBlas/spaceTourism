@@ -21,8 +21,7 @@
     flex-direction: column;
     height: 100vh;
     text-align: center;
-    background: rgba(255, 255, 255, 0.04);
-    backdrop-filter: blur(81.5485px);
+    background: rgba(0, 0, 0, 0.4);
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 1rem;
@@ -53,3 +52,32 @@
 
 
 
+@media (min-width:600px){
+    .navbar__links{
+        display: flex;
+        flex-direction: row;
+        padding: 2rem 4rem;
+        background: #333341d4;
+        
+    }
+
+    .navbar__links p,
+    .navbar__links a{
+        margin: 0 1rem;
+        text-decoration: none;
+        color: #fff;
+        font-family: var(--font-family);
+        font-size: 18px;
+    }
+
+    .navbar__toggleMenu{
+        display: none;
+    }
+}
+
+
+
+
+@media (min-width:1281px){
+
+}

@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <div className='home'>
-      <img src={backgroundHomeMobile} alt="img" />
+      
       <div className='home__info'>
         <p>SO, YOU WANT TO TRAVEL TO</p>
         <p id='p-title'>SPACE</p>

@@ -3,15 +3,16 @@ import "./navbar.css"
 import iconClose from "../../assets/shared/icon-close.svg"
 import iconHamburger from "../../assets/shared/icon-hamburger.svg"
 import logo from "../../assets/shared/logo.svg"
+import {Link} from "react-router-dom"
 
 const Menu = () =>{
   return (
     <>
       
-      <p><a href='#home'>Home</a></p>
-      <p><a href='#destination'>Destination</a></p>
-      <p><a href='#crew'>Crew</a></p>
-      <p><a href='#technology'>Technology</a></p>
+      <p><Link to='/'>HOME</Link></p>
+      <p><Link to='/destination'>DESTINATION</Link></p>
+      <p><Link to='/crew'>CREW</Link></p>
+      <p><Link to='/technology'>TECHNOLOGY</Link></p>
     </>
   )
 }
