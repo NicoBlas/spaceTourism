@@ -60,7 +60,7 @@ const Destination = () => {
     <div className='destination'>
       <div className='destination__selection'>
         <p id='destination-pick'>PICK YOUR DESTINATION</p>
-        <img src={DestinationDATA[destination].images.png} alt="imageDestination"/>
+        <img src={DestinationDATA[destination].images.webp} alt="imageDestination"/>
         <div className='destination__selection__options'>
           <p id={destination==0?"option-selected":null} onClick={()=> setDestination(0)} >MOON</p>
           <p id={destination==1?"option-selected":null} onClick={()=>setDestination(1)} >MARS</p>
