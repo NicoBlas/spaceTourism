@@ -1,5 +1,4 @@
 .destination{
-    
     width: 100vw;
     background-image: url("../../assets//destination/background-destination-mobile.jpg");
     background-size: cover;
@@ -41,7 +40,8 @@
     color: #D0D6F9;
     font-family: var(--font-family);
     font-size: 16px;
-    margin: 0 0.7rem;    
+    margin: 0 0.7rem; 
+    cursor: pointer;   
 }
 
 .destination__selection__options p:hover{
@@ -106,4 +106,113 @@
     animation: 70s rotate linear infinite;
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
+}
+
+
+@media (min-width:600px){
+
+    .destination{
+        background-image: url("../../assets//destination/background-destination-tablet.jpg");
+    }
+
+    .destination__selection{
+        padding-top: 7rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    #destination-pick{
+        text-align: start;
+        width: 100%;
+        font-size: 20px;
+        letter-spacing: 3px;
+        padding-left: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .destination__selection img{
+        width: 50%;
+        height: 50%;
+    }
+    
+    .destination__selection__options p{
+        margin: 0 1.5rem
+    }
+
+    #p-destination{
+        font-size: 80px;
+    }
+
+    #p-description{
+        padding: 0 5rem;
+    }
+
+    .destination__data{
+        display: flex;
+        flex-direction: row;
+        margin-top: 4rem;
+        padding-bottom: 6rem;
+    }
+
+
+}
+
+@media (min-width:1281px){
+    .destination{
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        background-image: url("../../assets//destination/background-destination-desktop.jpg");
+        justify-content: center;
+        align-items: center;
+        gap: 7%;
+    }
+    .destination__selection{
+        padding-top: 0;
+        
+    }
+    .destination__selection img{
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .destination__2part{
+        width: 30%;
+        margin-top: 10%;
+    }
+
+    .destination__selection__options{
+        order: -1;
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+        position: absolute;
+        top: 20%;
+        right: 15%;
+    }
+    .destination__selection__options p{
+        font-size: 20px;
+        margin: 0 1rem;
+    }
+    #destination-pick{
+        order:-2;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        font-size: 25px;
+        text-align: start;
+    }
+
+    #p-description{
+        padding: 0;
+        text-align: start;
+    }
+}
+
+@media (min-width:1600px){
+    .destination__selection__options{
+        order: -1;
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+        position: absolute;
+        top: 20%;
+        right: 20%;
+    }
 }

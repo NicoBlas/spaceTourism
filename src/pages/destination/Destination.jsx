@@ -68,20 +68,23 @@ const Destination = () => {
           <p id={destination==3?"option-selected":null} onClick={()=>setDestination(3)} >TITAN</p>
         </div>
       </div>
-      <div className='destination__info'>
-        <p id='p-destination'>{DestinationDATA[destination].name}</p>
-        <p id="p-description">{DestinationDATA[destination].description}</p>
-      </div>
-      <div className='destination__data'>
-        <div className='destination__data-distance'>
-          <p id="p-description">AVG. DISTANCE</p>
-          <p id="p-dataWhite">{DestinationDATA[destination].distance.toUpperCase() } </p>
+      <div className='destination__2part'>
+        <div className='destination__info'>
+          <p id='p-destination'>{DestinationDATA[destination].name}</p>
+          <p id="p-description">{DestinationDATA[destination].description}</p>
         </div>
-        <div className='destination__data-time'>
-          <p id="p-description">EST. TIME TRAVEL</p>
-          <p id="p-dataWhite">{DestinationDATA[destination].travel.toUpperCase() }</p>
+        <div className='destination__data'>
+          <div className='destination__data-distance'>
+            <p id="p-description">AVG. DISTANCE</p>
+            <p id="p-dataWhite">{DestinationDATA[destination].distance.toUpperCase() } </p>
+          </div>
+          <div className='destination__data-time'>
+            <p id="p-description">EST. TIME TRAVEL</p>
+            <p id="p-dataWhite">{DestinationDATA[destination].travel.toUpperCase() }</p>
+          </div>
         </div>
       </div>
+      
 
     </div>
   )
