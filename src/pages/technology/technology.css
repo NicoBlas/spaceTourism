@@ -1,0 +1,100 @@
+.technology{
+    background-image: url("../../assets/technology/background-technology-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.technology__title{
+    color: #FFFFFF;
+    font-family: var(--font-family);
+    font-size: 16px;
+    margin-bottom: 2rem;
+    letter-spacing: 3px;
+    margin-top: 6rem;
+}
+
+
+
+.technology-container{
+    width: 100vw;
+    
+}
+.technology-container-line{
+    width: 100%;
+    padding: 0 2rem;
+    border-bottom: 1px groove  #d0d6f955;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.technology-container img{
+    width: 100%;   
+}
+
+
+
+.technology__circles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.technology-circles-circle{
+    width: 3rem;
+    height: 3rem;
+    background-color: none;
+    margin: 1rem 0.8rem;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    color: #FFFFFF;
+    border: 0.5px solid #d0d6f992;
+}
+
+.technology-circles-circle:hover{
+    border: 1px solid #FFFFFF;
+}
+
+#technology-option-selected{
+    background: #FFFFFF;
+    color: black;
+}
+
+.p-technologySection{
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: #D0D6F9;
+    text-align: center;
+    line-height: 28px;
+    letter-spacing: 3px;
+}
+
+.p-technologyName{
+    font-family:"Bellefair";
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 2rem 0;
+    
+}
+
+.p-technologyDesc{
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: #D0D6F9;
+    text-align: center;
+    line-height: 28px;
+}
