@@ -82,7 +82,7 @@
 
 #p-dataWhite{
     font-family: "Bellefair";
-    font-size: 35px;
+    font-size: 30px;
     color:#FFFFFF;
     margin: 1rem 0;
 }
@@ -196,8 +196,8 @@
         order:-2;
         margin-top: 2rem;
         margin-bottom: 4rem;
-        font-size: 25px;
-        text-align: start;
+        font-size: 35px;
+        
     }
 
     #p-description{
@@ -215,4 +215,12 @@
         top: 20%;
         right: 20%;
     }
+    
+    .destination__data{
+        gap:2rem;
+        align-items: center;
+        justify-content: center;
+        text-align:  center;
+    }
+    
 }
