@@ -23,6 +23,15 @@ button{
     font-weight: 400;  
 }
 
+button:hover{
+    transform: scale(0.8);
+    transition-duration: 1s;
+    background: #1b1c1f;
+    color: #FFFFFF;
+    font-size: 30px;
+    
+}
+
 .buttomClass p,
 .buttomClass a{
     color: #0B0D17;
@@ -37,5 +46,33 @@ button{
 }
 
 
+@media (min-width:600px){
+    button{
+        width: 30vw;
+        height: 30vw;
+    }
+    .buttomClass{
+        width: 100%;
+    }
+}
 
+@media (min-width:1281px){
+    button{
+        width: 16vw;
+        height: 16vw;
+        font-size: 40px;
+    }
 
+    .buttomClass{
+        width: 100%;
+    }
+
+    button:hover{
+        transform: scale(0.8);
+        transition-duration: 1s;
+        background: #1b1c1f;
+        color: #FFFFFF;
+        font-size: 60px;
+        
+    }
+}

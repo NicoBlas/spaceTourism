@@ -51,3 +51,75 @@
 #lastP{
     margin-bottom: 4rem;
 }
+
+
+@media (min-width:600px){
+    .home{
+        background-image: url("../../assets/home/background-home-tablet.jpg")  
+    }
+
+    .home__info{
+        padding-top: 12rem;
+    }
+
+    #p-title{
+        font-size: 150px;
+        margin: 4rem 0;
+    }
+
+    #lastP{
+        padding: 0 9rem;
+        margin-bottom: 8rem;
+    }
+
+    .home__buttom{
+        width: 40vw;
+        height: 40vw;
+    }
+}
+
+@media (min-width:1281px){
+    .home{
+        background-image: url("../../assets/home/background-home-desktop.jpg")  
+    }
+    .home__info{
+        height: 100vh;;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        
+    }
+    .home__buttom{
+        width: 22vw;
+        height: 22vw;
+        margin: 0;
+        position: absolute;
+        right: 10%;
+        bottom: 10%;
+    }
+
+    #p-desc{
+        font-size: 28px;
+        text-align: start;
+        padding-left: 9rem;
+    }
+
+    #lastP{
+        width: 60vw;
+        text-align: start;
+        font-size: 26px;
+        line-height: 35px;
+    }
+    #p-title{
+        text-align: start;
+        padding-left: 9rem;
+        font-size: 200px;
+        margin: 6rem 0;
+    }
+}
+
+@media (min-width:1650px){
+    #lastP{
+        width: 45%;
+    }
+}
