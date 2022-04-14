@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./technology.css"
 import vehicleLandscape from "../../assets/technology/image-launch-vehicle-landscape.jpg"
 import vehiclePortrait from "../../assets/technology/image-launch-vehicle-portrait.jpg"
@@ -6,6 +6,7 @@ import spaceCapsuleLand from "../../assets/technology/image-space-capsule-landsc
 import spaceCapsulePortrait from "../../assets/technology/image-space-capsule-portrait.jpg"
 import spaceportLand from "../../assets/technology/image-spaceport-landscape.jpg"
 import spaceportPortrait from "../../assets/technology/image-spaceport-portrait.jpg"
+
 
 
 
@@ -39,12 +40,18 @@ const Technology = () => {
     },
   ]
 
+  const mql = window.matchMedia('(min-width: 1281px)');
+  {console.log(mql.matches)}
+  const imagesPortrait = DATATECH[number].images.portrait
+  const imagesLandscape = DATATECH[number].images.landscape
+
+
   return (
     <div className='technology'>
       <p className='technology__title'>SPACE LAUNCH 101</p>
       <div className='technology-container-line'>
         <div className='technology-container'>
-          <img src={DATATECH[number].images.landscape} alt="imageTechnology" />
+          <img src={mql.matches?imagesPortrait:imagesLandscape} alt="imageTechnology" />
         </div>
       </div>
       <div className='technology__circles'>

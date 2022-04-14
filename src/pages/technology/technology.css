@@ -63,6 +63,7 @@
     font-family: var(--font-family);
     color: #FFFFFF;
     border: 0.5px solid #d0d6f992;
+    cursor: pointer;
 }
 
 .technology-circles-circle:hover{
@@ -97,4 +98,113 @@
     color: #D0D6F9;
     text-align: center;
     line-height: 28px;
+}
+
+@media (min-width:600px){
+    .technology{
+        background-image: url("../../assets/technology/background-technology-tablet.jpg");
+        height: none;
+        padding-top: 3rem;
+    }
+
+    .technology__title{
+        width: 100%;
+        text-align: start;
+        padding-left: 4rem;
+        margin-bottom: 4rem;
+       
+    }
+
+    .technology-container-line{
+        margin-bottom: 1.5rem;
+    }
+    .technology-circles-circle{
+        width: 5rem;
+        height: 5rem;
+        margin-bottom: 1.5rem;
+    }
+    .p-technologyName{
+        font-size: 50px;
+    }
+
+    .p-technologyDesc{
+        padding-left: 8rem;
+        padding-right: 8rem;
+        padding-top: 0;
+        padding-bottom: 2rem;   
+    }
+
+}
+
+@media (min-width:1281px){
+    .technology{
+        background-image: url("../../assets/technology/background-technology-desktop.jpg");
+        height: 100vh;
+        padding-top: 3rem;
+        align-items: flex-start;
+    }
+
+    .technology-container-line{
+        border-bottom: none;
+        
+    }
+    .technology-container{
+        width: 30vw;
+        position: absolute;
+        right: 10px;
+        bottom: 10%;
+    }
+
+    .technology-container img{
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .technology__title{
+        padding-left: 8rem;
+        font-size: 25px;
+    }
+
+    .technology__circles{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 15rem;
+        left: 9rem;
+    }
+
+    .p-technologySection{
+        width: 60%;
+        text-align: start;
+        padding-left: 20rem;
+    }
+    .p-technologyName{
+        width: 60%;
+        text-align: start;
+        padding-left: 20rem;
+    }
+    
+    .p-technologyDesc{
+        width: 60%;
+        text-align: start;
+        padding-left: 20rem;
+    }
+}
+
+@media (min-width:1600px){
+    .p-technologySection{
+        width: 50%;
+        font-size: 22px;
+        
+    }
+    .p-technologyName{
+        width: 50%;
+        font-size: 70px;
+    }
+    
+    .p-technologyDesc{
+        width: 60%;
+        font-size: 20px;
+        line-height: 30px;
+    }
 }

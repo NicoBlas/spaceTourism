@@ -1,0 +1,57 @@
+.notfound{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/destination/background-destination-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.notfound h1{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 3rem;
+    font-family: var(--font-family);
+    color: #ffffff;
+    font-size: 50px;
+
+}
+
+.notfound p{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: var(--font-family);
+    color: #ffffff;
+    font-size: 25px;
+}
+
+@media (min-width:1281px){
+    .notfound h1{
+        padding-left: 6rem;
+        font-size: 60px;
+    
+    }
+    
+    .notfound p{
+        padding-left: 6rem;
+        font-size: 30px;
+    }
+}
+
+@media (min-width:1600px){
+    .notfound h1{
+        padding-left: 8rem;
+        font-size: 70px;
+    
+    }
+    
+    .notfound p{
+        padding-left: 8rem;
+        font-size: 35px;
+    }
+}
