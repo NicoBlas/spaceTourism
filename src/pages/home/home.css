@@ -99,7 +99,7 @@
     }
 
     #p-desc{
-        font-size: 28px;
+        font-size: 24px;
         text-align: start;
         padding-left: 9rem;
     }
@@ -107,13 +107,13 @@
     #lastP{
         width: 60vw;
         text-align: start;
-        font-size: 26px;
+        font-size: 22px;
         line-height: 35px;
     }
     #p-title{
         text-align: start;
         padding-left: 9rem;
-        font-size: 200px;
+        font-size: 160px;
         margin: 6rem 0;
     }
 }
@@ -121,5 +121,15 @@
 @media (min-width:1650px){
     #lastP{
         width: 45%;
+        font-size: 26px;
+    }
+
+    #p-desc{
+        font-size: 28px;
+        
+    }
+
+    #p-title{
+        font-size: 180px;
     }
 }
