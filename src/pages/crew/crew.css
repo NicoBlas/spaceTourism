@@ -1,6 +1,6 @@
 .crew{
     width: 100vw;
-    height: 105vh;
+    height: 100vh;
     background-image: url("../../assets/crew/background-crew-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,7 +90,6 @@
     .crew{
         padding-top: 4rem;
         background-image: url("../../assets/crew/background-crew-tablet.jpg");
-        overflow: hidden;
     }
     .p-crewBio{
         padding: 1rem 8rem;
@@ -137,6 +136,7 @@
         align-items: flex-start;
         justify-content: flex-start;
         padding-top: 6rem;
+        
     }
 
     .crew__title{
@@ -175,18 +175,18 @@
     }
     .crew__image-container-line{
         max-width: 392px;
-        max-height: 537px;
+        max-height: 532px;
         padding: 0;
     }
     
     .crew__image-container{
         max-width: 392px;
-        max-height: 537px;
+        max-height: 532px;
     }
     
     .crew__image-container-line img{
-        max-width: 392px;
-        max-height: 537px;
+        max-width: 60vh;
+        max-height: 70vh;
     }
 
     .crew__circles-circle{
